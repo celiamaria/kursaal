@@ -2,41 +2,41 @@ Proceso sin_titulo
     Repetir
         // mostrar menu
         Limpiar Pantalla
-        Escribir "Menú de recomendaciones"
-        Escribir "   1. Literatura"
+        Escribir "MenÃº de recomendaciones"
+        Escribir "   1. Literatura global"
         Escribir "   2. Cine"
-        Escribir "   3. Música"
+        Escribir "   3. MÃºsica"
         Escribir "   4. Videojuegos"
         Escribir "   5. Salir"
         // ingresar una opcion
-        Escribir "Elija una opción (1-5): "
+        Escribir "Elija una opciÃ³n (1-5): "
         Leer OP
-        // procesar esa opción
+        // procesar esa opciÃ³n
         Segun OP Hacer
             1:
                 Escribir "Lecturas recomendables:"
-                Escribir " + Esperándolo a Tito y otros cuentos de fúbol (Eduardo Sacheri)"
+                Escribir " + EsperÃ¡ndolo a Tito y otros cuentos de fÃºbol (Eduardo Sacheri)"
                 Escribir " + El juego de Ender (Orson Scott Card)"
-                Escribir " + El sueño de los héroes (Adolfo Bioy Casares)"
+                Escribir " + El sueÃ±o de los hÃ©roes (Adolfo Bioy Casares)"
             2:
-                Escribir "Películas recomendables:"
+                Escribir "PelÃ­culas recomendables:"
                 Escribir " + Matrix (1999)"
-                Escribir " + El último samuray (2003)"
+                Escribir " + El Ãºltimo samuray (2003)"
                 Escribir " + Cars (2006)"
             3:
                 Escribir "Discos recomendables:"
                 Escribir " + Despedazado por mil partes (La Renga, 1996)"
-                Escribir " + Búfalo (La Mississippi, 2008)"
-                Escribir " + Gaia (Mägo de Oz, 2003)"
+                Escribir " + BÃºfalo (La Mississippi, 2008)"
+                Escribir " + Gaia (MÃ¤go de Oz, 2003)"
             4:
-                Escribir "Videojuegos clásicos recomendables"
-                Escribir " + Día del tentáculo (LucasArts, 1993)"
+                Escribir "Videojuegos clÃ¡sicos recomendables"
+                Escribir " + DÃ­a del tentÃ¡culo (LucasArts, 1993)"
                 Escribir " + Terminal Velocity (Terminal Reality/3D Realms, 1995)"
                 Escribir " + Death Rally (Remedy/Apogee, 1996)"
             5:
                 Escribir "Gracias, vuelva prontos"
             De otro modo:
-                Escribir "Opción no válida"
+                Escribir "OpciÃ³n no vÃ¡lida"
         FinSegun
         Escribir "Presione enter para continuar"
         Esperar Tecla
